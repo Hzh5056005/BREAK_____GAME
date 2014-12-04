@@ -135,7 +135,7 @@ class ball
         //Description:  keep ball in zero to two PI
         //Return type:  double
         //Pre:          object exists
-        //Post:         return double value
+        //Post:         return direction between 0 to two PI
         double keepBallinZerotoTwoPi();
 
     private:

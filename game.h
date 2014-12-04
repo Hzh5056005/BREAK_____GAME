@@ -8,6 +8,11 @@
 class Game
 {
     public:
+    
+    //Description:  set default value of game
+    //Return Type:  none
+    //Pre:          none
+    //Post:         object exists
     Game();
     void play();
 

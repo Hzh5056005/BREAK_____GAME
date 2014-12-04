@@ -65,15 +65,65 @@ class ball
         //Pre:          none
         //Post:         object exists
         void erase(Plotter&);
+        
+        //Description:  check if ball hit rightwall
+        //Return type:  0 or 1   
+        //Pre:          object exists
+        //Post:         return true or false
         bool ballHitRightWall(ball, int);
+        
+        //Description:  check if ball hit leftwall
+        //Return type:  0 or 1
+        //Pre:          object exists
+        //Post:         return true or false
         bool ballHitLeftWall(ball, int);
+        
+        //Description:  check if ball hit top wall
+        //Return type:  0 or 1
+        //Pre:          object exists
+        //Post:         return true or false
         bool ballHitTopWall(ball b, int row);
+        
+        //Description:  check if ball hit the bottomwall
+        //Return type:  1 or 0
+        //Pre:          object exists
+        //Post:         return true or false
         bool ballHitBottomWall(ball b, int row);
+        
+        //Description:  set direction of ball
+        //Return type:  none
+        //Pre:          none
+        //Post:         object exists
         void setDir(double d);
+        
+        //Description:  get direction of ball
+        //Return type:  double
+        //Pre:          object exists
+        //Post:         return the direction
         double getDir();
+        
+        //Description:  get old location of point 
+        //Return type:  point
+        //Pre:          object exists
+        //Post:         return the old location of point
         Point getOldLoc();
+        
+        //Description:  set old loctaion of point
+        //Return type:  none
+        //Pre:          none
+        //Post:         object exists
         void setOldLoc(Point loc);
+        
+        //Description:  set old direction of ball
+        //Return type:  none
+        //Pre:          none
+        //Post:         object exists
         void setOldDir(double d);
+        
+        //Description:  get old direction of ball
+        //Return type:  double
+        //Pre:          object exists
+        //Post:         return old direction of ball
         double getOldDir();
 
     private:

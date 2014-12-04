@@ -132,7 +132,7 @@ class ball
         //Post:         return new direction
         double newDir();
         
-        //Description:  keep ball in zero to two PI
+        //Description:  keep ball move in the direction between zero and two PI
         //Return type:  double
         //Pre:          object exists
         //Post:         return direction between 0 to two PI

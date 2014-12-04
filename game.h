@@ -17,10 +17,10 @@ class Game
     //Post:         object exists
     Game();
     
-    //Description:
-    //Return Type
-    //Pre:
-    //Post:
+    //Description:  Start and run the game
+    //Return Type:  none
+    //Pre:          none
+    //Post:         object exists
     void play();
 
     private:

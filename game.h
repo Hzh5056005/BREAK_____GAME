@@ -9,8 +9,22 @@
 
 class Game
 {
+    //Description:
+    //Return Type
+    //Pre:
+    //Post:
     public:
+    
+    //Description:
+    //Return Type
+    //Pre:
+    //Post:
     Game();
+    
+    //Description:
+    //Return Type
+    //Pre:
+    //Post:
     void play();
 
     private:

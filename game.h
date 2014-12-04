@@ -9,16 +9,12 @@
 
 class Game
 {
-    //Description:
-    //Return Type
-    //Pre:
-    //Post:
     public:
     
-    //Description:
-    //Return Type
-    //Pre:
-    //Post:
+    //Description:  set default value of game
+    //Return Type:  none
+    //Pre:          none
+    //Post:         object exists
     Game();
     
     //Description:
